@@ -94,16 +94,16 @@ jobs:
         # https://stackoverflow.com/a/76469774
         PIP_BREAK_SYSTEM_PACKAGES: '1'
 
-    # vpython (depot_tools) defaults to the python_version pinned in the V8
-    # .vpython3 spec (3.8 + numpy==1.21.1). macOS runners no longer ship 3.8,
-    # so the venv creation fails during gclient sync. The V8 C++ build itself
-    # does not need 3.8; point vpython at the runner's system python3 (3.12)
-    # and let vpython resolve wheels from PyPI instead of the stale pinned
-    # spec. Mirrors how the ubuntu jobs run gclient with system python.
-    - name: Use system python for vpython (macOS)
+    # V8's .vpython3 spec pins python_version 3.8 (numpy==1.21.1 wheels
+    # exist only for 3.8 in Chromium's Artifact Registry), and macOS runners
+    # no longer ship a 3.8 interpreter, so vpython fails to build its venv
+    # during gclient sync. Install 3.8 explicitly so the spec resolves as
+    # written. The C++ build itself uses ninja/clang and is unaffected.
+    - name: Install Python 3.8 for vpython (macOS)
       if: matrix.platform == 'macos-latest'
-      run: |
-        echo "VPYTHON_BYPASS=~/.vpython-root/never-used" >> "$GITHUB_ENV"
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.8'
 
     - name: Install CCache
       if: contains(matrix.platform, 'ubuntu')
