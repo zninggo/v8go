@@ -72,11 +72,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [android, linux]
+        os: [android, darwin, linux]
         arch: [amd64, arm64]
         include:
         - os: android
           platform: ubuntu-22.04
+        - os: darwin
+          platform: macos-latest
         - os: linux
           platform: ubuntu-22.04
     runs-on: ${{ matrix.platform }}
