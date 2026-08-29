@@ -120,6 +120,9 @@ def build_gn_args():
         symbol_level,
         str(strip_debug_info).lower(),
     )
+    use_custom_libcxx = (v8_os() == 'mac')
+    gnargs += 'use_custom_libcxx=%s\n' % str(use_custom_libcxx).lower()
+
     if args.ccache:
         gnargs += 'cc_wrapper="ccache"\n'
     if not is_clang and arch == "arm64":
