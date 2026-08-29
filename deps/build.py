@@ -92,7 +92,6 @@ exclude_unwind_tables=true
 v8_android_log_stdout=true
 v8_enable_sandbox=false
 v8_enable_temporal_support=false
-extra_cflags="-fno-use-crel"
 """
 
 def v8deps():
