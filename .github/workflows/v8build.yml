@@ -323,6 +323,9 @@ jobs:
         sha="${{ steps.info.outputs.sha }}"
         submods=( $(for submod in ${{ steps.info.outputs.submodules }}; do echo "github.com/${{ github.repository }}/$submod@$sha" ; done) )
         go get "${submods[@]}"
+      env:
+        GOPRIVATE: github.com/zninggo/v8go
+        GOSUMDB: off
 
     - id: commit
       name: Commit
