@@ -120,7 +120,12 @@ def build_gn_args():
         symbol_level,
         str(strip_debug_info).lower(),
     )
-    use_custom_libcxx = (v8_os() == 'mac')
+    # linux arm64 cross-compiles with clang but links against the
+    # system aarch64-linux-gnu libstdc++ (GCC11) headers, whose <atomic>
+    # has an incomplete std::atomic_ref -> "no member named atomic_ref"
+    # on V8 15.x files. Use Chromium's bundled libc++ there too, same as
+    # darwin (whose SDK libc++ conflicts with -fvisibility=hidden).
+    use_custom_libcxx = (v8_os() == 'mac') or (v8_os() == 'linux' and args.arch == 'arm64')
     gnargs += 'use_custom_libcxx=%s\n' % str(use_custom_libcxx).lower()
 
     if args.ccache:
