@@ -243,7 +243,7 @@ jobs:
 
     - id: commit
       name: Commit
-      uses: EndBug/add-and-commit@v9.2.1
+      uses: EndBug/add-and-commit@v11
       with:
         add: |
           - cgo.go
@@ -326,7 +326,7 @@ jobs:
 
     - id: commit
       name: Commit
-      uses: EndBug/add-and-commit@v9.2.1
+      uses: EndBug/add-and-commit@v11
       with:
         add: |
           go.mod
