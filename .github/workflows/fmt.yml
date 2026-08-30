@@ -21,6 +21,10 @@ jobs:
       run: go fmt
 
     - name: go vet
+      env:
+        GOPRIVATE: github.com/zninggo/v8go
+        GOSUMDB: off
+        CGO_LDFLAGS_ALLOW: "-fuse-ld=.*"
       run: go vet
 
     - name: go generate (clang-format)
