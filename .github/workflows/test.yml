@@ -61,7 +61,7 @@ jobs:
 
     - name: Install lld (Linux)
       if: matrix.os == 'linux'
-      run: sudo apt-get update && sudo apt-get install -y lld
+      run: sudo apt-get update && sudo apt-get install -y lld-19 && sudo update-alternatives --install /usr/bin/ld.lld ld.lld /usr/bin/ld.lld-19 50
     - name: Run Tests With Coverage
       run: |
         # https://github.com/zninggo/v8go/actions/runs/7363603520/job/20043211523 shows that TestCPUProfileNode can be flaky.
