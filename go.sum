@@ -6,6 +6,8 @@ github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260829121948-614e9110c891 h1
 github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260829121948-614e9110c891/go.mod h1:i1w3y5PUYuDfzYR/MqnnsC2zzJvMfYhQ27eHSWxApU0=
 github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260829152008-72749499f019 h1:o/asQYsQjQ/wQX+bV0OVwzNOY4L1Iz7z2z24jR3tSug=
 github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260829152008-72749499f019/go.mod h1:i1w3y5PUYuDfzYR/MqnnsC2zzJvMfYhQ27eHSWxApU0=
+github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260902063130-e47819622793 h1:ioWcF+nvZN+/gPhOjQnDg5MQ4P+Ta/y5r7aS6HWsuxM=
+github.com/zninggo/v8go/deps/android_amd64 v0.0.0-20260902063130-e47819622793/go.mod h1:i1w3y5PUYuDfzYR/MqnnsC2zzJvMfYhQ27eHSWxApU0=
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829053000-d8c339222bd3 h1:uRcq4oGPTo7lFQQNe8fAy/I2ZRWKHKlmv4hUqTE0AUU=
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829053000-d8c339222bd3/go.mod h1:TTjzMDfQX4ISMLNhOdUATE7LEDmBfpvQToq8bOROxNk=
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829060313-44d1b06e803d h1:8/U1OVe3KsZwd3KSo4+vJU10jNVhRO8ICc3BdC6UwRI=
@@ -14,6 +16,8 @@ github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829121948-614e9110c891 h1
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829121948-614e9110c891/go.mod h1:TTjzMDfQX4ISMLNhOdUATE7LEDmBfpvQToq8bOROxNk=
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829152008-72749499f019 h1:7Tcb2zRe4dGyYzAGPCRCX6nng9nrVfcoV6PymGqpGA4=
 github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260829152008-72749499f019/go.mod h1:TTjzMDfQX4ISMLNhOdUATE7LEDmBfpvQToq8bOROxNk=
+github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260902063130-e47819622793 h1:oz9sIKgHz7Nmj7js59sm+Lh3xXIXYl0t+k6EIbmf3Lg=
+github.com/zninggo/v8go/deps/android_arm64 v0.0.0-20260902063130-e47819622793/go.mod h1:TTjzMDfQX4ISMLNhOdUATE7LEDmBfpvQToq8bOROxNk=
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829053000-d8c339222bd3 h1:8aWNQ/EUzFQsFTRfQnjCYW7LXGgdtnkM7DiP5iOIK0c=
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829053000-d8c339222bd3/go.mod h1:CLUL+fbI7I/eAT5buNsJbP9Ha4gJQnMHAxp95d5Wc1Q=
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829060313-44d1b06e803d h1:CjNCoik5afINNppvUE3+KJmn5+QldmHz7JAOyCybjEA=
@@ -22,6 +26,8 @@ github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829121948-614e9110c891 h1:
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829121948-614e9110c891/go.mod h1:CLUL+fbI7I/eAT5buNsJbP9Ha4gJQnMHAxp95d5Wc1Q=
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829152008-72749499f019 h1:eQWoipTmyE1rOt4Ls0cTZ+F70UG8oZYXJPnf0aFWdP8=
 github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260829152008-72749499f019/go.mod h1:CLUL+fbI7I/eAT5buNsJbP9Ha4gJQnMHAxp95d5Wc1Q=
+github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260902063130-e47819622793 h1:BahVFzVMs+CUeKrmnB/NdnlETx3Zrz09jq8MaxumAIg=
+github.com/zninggo/v8go/deps/darwin_amd64 v0.0.0-20260902063130-e47819622793/go.mod h1:CLUL+fbI7I/eAT5buNsJbP9Ha4gJQnMHAxp95d5Wc1Q=
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829053000-d8c339222bd3 h1:KZ/eW8Ve0jPAyBn4nUAC7H2s++rriqdShfMSeVcDaeY=
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829053000-d8c339222bd3/go.mod h1:PH1q3A4xQ3JMclOVst+0LmESt009UJYXBXzyltg4YZc=
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829060313-44d1b06e803d h1:NJSWCBqiXk2tSjVcYRDsoiyfvhp6GyNFiqia6G78XPM=
@@ -30,6 +36,8 @@ github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829121948-614e9110c891 h1:
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829121948-614e9110c891/go.mod h1:PH1q3A4xQ3JMclOVst+0LmESt009UJYXBXzyltg4YZc=
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829152008-72749499f019 h1:v7h7oU9JNyzTae73gRg2BxZOzVGCEVI6hl4pE+alfGs=
 github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260829152008-72749499f019/go.mod h1:PH1q3A4xQ3JMclOVst+0LmESt009UJYXBXzyltg4YZc=
+github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260902063130-e47819622793 h1:/lTDiYbp/XWD94X48k5ffOcSveWsk9Hen58kCe9xPJg=
+github.com/zninggo/v8go/deps/darwin_arm64 v0.0.0-20260902063130-e47819622793/go.mod h1:PH1q3A4xQ3JMclOVst+0LmESt009UJYXBXzyltg4YZc=
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829053000-d8c339222bd3 h1:AlEXA9Fwgmlc8PTBy2B2WKi99mtwiW2cJYcgGLRPyXQ=
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829053000-d8c339222bd3/go.mod h1:qaFCh5XZaZV+CyLd4orMgAqU9BQLWo23t6LKHkA1UkI=
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829060313-44d1b06e803d h1:53lhGpxcy7xIgSXqN6brT0ZvpgdxznU8wIoLUgDgGnw=
@@ -38,6 +46,8 @@ github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829121948-614e9110c891 h1:T
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829121948-614e9110c891/go.mod h1:qaFCh5XZaZV+CyLd4orMgAqU9BQLWo23t6LKHkA1UkI=
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829152008-72749499f019 h1:uYYy+jRy4U8suaZNuGSGgJhPj8A0iv89qtYhIZoptAg=
 github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260829152008-72749499f019/go.mod h1:qaFCh5XZaZV+CyLd4orMgAqU9BQLWo23t6LKHkA1UkI=
+github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260902063130-e47819622793 h1:xfLRzIE5gpN8MCSWRb7anZBcO/1kA9Y+AcSzLz1802Y=
+github.com/zninggo/v8go/deps/linux_amd64 v0.0.0-20260902063130-e47819622793/go.mod h1:qaFCh5XZaZV+CyLd4orMgAqU9BQLWo23t6LKHkA1UkI=
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829053000-d8c339222bd3 h1:cXraGoQ9G4b/TYVDf8FTgSdAoLGmniYpEAG6gYMcViY=
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829053000-d8c339222bd3/go.mod h1:55WHgNf6yne1IiwlfX+zajJqP4JeBLMyJ2WG439lMXo=
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829060313-44d1b06e803d h1:AdbA6uRsnHR1yOl+7nPfqg8+Obq1/Qt9UW+t7ewcwyA=
@@ -46,3 +56,5 @@ github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829121948-614e9110c891 h1:L
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829121948-614e9110c891/go.mod h1:55WHgNf6yne1IiwlfX+zajJqP4JeBLMyJ2WG439lMXo=
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829152008-72749499f019 h1:uLrbHsqzvRyUZ0OVZ1+PJGXcXj8b2hAWRKLJkV6DsXA=
 github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260829152008-72749499f019/go.mod h1:55WHgNf6yne1IiwlfX+zajJqP4JeBLMyJ2WG439lMXo=
+github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260902063130-e47819622793 h1:lrnSH4Q1tx2vPoIq48edagHghnD9ok8WMNKkz/M6vvg=
+github.com/zninggo/v8go/deps/linux_arm64 v0.0.0-20260902063130-e47819622793/go.mod h1:55WHgNf6yne1IiwlfX+zajJqP4JeBLMyJ2WG439lMXo=
