@@ -121,12 +121,13 @@ def build_gn_args():
         symbol_level,
         str(strip_debug_info).lower(),
     )
-    # linux arm64 cross-compiles with clang but links against the
-    # system aarch64-linux-gnu libstdc++ (GCC11) headers, whose <atomic>
-    # has an incomplete std::atomic_ref -> "no member named atomic_ref"
-    # on V8 15.x files. Use Chromium's bundled libc++ there too, same as
-    # darwin (whose SDK libc++ conflicts with -fvisibility=hidden).
-    use_custom_libcxx = (v8_os() == 'mac') or (v8_os() == 'linux' and args.arch == 'arm64')
+    # Only darwin needs Chromium's bundled libc++ (its SDK libc++ conflicts
+    # with -fvisibility=hidden). linux arm64 uses the system aarch64-linux-gnu
+    # libstdc++ like amd64 — the ubuntu-24.04 cross toolchain is GCC 13, whose
+    # <atomic> has a complete std::atomic_ref (the gap was GCC 11 only). Using
+    # bundled libc++ (clang trunk) there produced a libc++ ABI that could not
+    # be linked by the default g++/libstdc++ toolchain on arm64 hosts.
+    use_custom_libcxx = (v8_os() == 'mac')
     gnargs += 'use_custom_libcxx=%s\n' % str(use_custom_libcxx).lower()
 
     if args.ccache:

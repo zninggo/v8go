@@ -83,7 +83,7 @@ jobs:
         - os: darwin
           platform: macos-latest
         - os: linux
-          platform: ubuntu-22.04
+          platform: ubuntu-24.04
     runs-on: ${{ matrix.platform }}
     steps:
     - name: Install g++-aarch64-linux-gnu
